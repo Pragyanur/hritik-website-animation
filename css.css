@@ -1,0 +1,24 @@
+#blur-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to left,
+    transparent,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 80%
+  );
+}
+
+#blur-2 {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 80%
+  );
+}
